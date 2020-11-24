@@ -162,8 +162,8 @@ public class PdfFragment extends Fragment {
         PdfPCell cellPO = new PdfPCell();
         //TODO 2.4 - Ubah NPM Praktikan dengan NPM anda dan ubah Tanggal Praktikum sesuai tanggalpraktikum modul 11 kelas anda
         Paragraph NomorTanggal = new Paragraph(
-                "No : " + "98" + "\n\n" +
-                        "Tanggal : " + "25" + "\n",
+                "No : " + "9800" + "\n\n" +
+                        "Tanggal : " + "25-10-2020" + "\n",
                 new com.itextpdf.text.Font(com.itextpdf.text.Font.FontFamily.TIMES_ROMAN, 10,
                         com.itextpdf.text.Font.NORMAL, BaseColor.BLACK)
         );
