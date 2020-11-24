@@ -6,6 +6,138 @@
     android:layout_height="match_parent"
     android:background="#02CDE8"
     tools:context=".ui.download.DownloadFragment">
-
-
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#02CDE8"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:layout_marginBottom="100dp"
+            android:drawableTop="@android:drawable/stat_sys_download"
+            android:text="@string/download_di_sini"
+            android:textAlignment="center"
+            android:textColor="#A300C8"
+            android:textSize="30sp"
+            android:textStyle="bold|italic" />
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF">
+            <ProgressBar
+                android:id="@+id/pb1"
+                style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:progressTint="@color/black" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+                    <TextView
+                        android:id="@+id/tvNamaPertama"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="2dp"
+                        android:layout_weight="1"
+                        android:text="@string/gambar"
+                        android:textAlignment="center"
+                        android:textColor="#000000" />
+                    <TextView
+                        android:id="@+id/tvProgressPertama"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="2dp"
+                        android:layout_weight="1"
+                        android:text="@string/_0_66_mb"
+                        android:textAlignment="center" />
+                </LinearLayout>
+                <Button
+                    android:id="@+id/btnCancelPertama"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4dp"
+                    android:layout_weight="1"
+                    android:enabled="false"
+                    android:text="@string/cancel" />
+                <Button
+                    android:id="@+id/btnStartPertama"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4dp"
+                    android:layout_weight="1"
+                    android:background="#FFFFFF"
+                    android:backgroundTint="#E44343"
+                    android:text="@string/start"
+                    android:textColor="#000000" />
+            </LinearLayout>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF">
+            <ProgressBar
+                android:id="@+id/pb2"
+                style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:progressTint="@color/black" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+                    <TextView
+                        android:id="@+id/tvNamaKedua"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="2dp"
+                        android:layout_weight="1"
+                        android:text="@string/musik"
+                        android:textAlignment="center"
+                        android:textColor="#000000" />
+                    <TextView
+                        android:id="@+id/tvProgressKedua"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="2dp"
+                        android:layout_weight="1"
+                        android:text="@string/_3_76_mb"
+                        android:textAlignment="center" />
+                </LinearLayout>
+                <Button
+                    android:id="@+id/btnCancelKedua"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4dp"
+                    android:layout_weight="1"
+                    android:enabled="false"
+                    android:text="@string/cancel" />
+                <Button
+                    android:id="@+id/btnStartKedua"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4dp"
+                    android:layout_weight="1"
+                    android:background="#FFFFFF"
+                    android:backgroundTint="#E44343"
+                    android:text="@string/start"
+                    android:textColor="#000000" />
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
 </ScrollView>

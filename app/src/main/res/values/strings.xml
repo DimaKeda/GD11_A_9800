@@ -1,9 +1,9 @@
 <resources>
-    <string name="app_name">GD11_X_YYYY</string>
+    <string name="app_name">GD11_A_9800</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="nav_header_title">GUIDED LIBRARY 2</string>
-    <string name="nav_header_subtitle">XXXX - YYYYYYYYY</string>
+    <string name="nav_header_subtitle">Dima - 180709800</string>
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_home">Home</string>
     <string name="action_pdf">Generate PDF</string>

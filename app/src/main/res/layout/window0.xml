@@ -2,6 +2,11 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:orientation="vertical">
-
-</LinearLayout>
+    android:orientation="vertical"> <TextView
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:gravity="center"
+    android:text="Dima / 180709800"
+    android:textAlignment="center"
+    android:textColor="@color/black"
+    android:textSize="40dp" /> </LinearLayout>
